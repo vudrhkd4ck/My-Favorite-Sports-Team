@@ -1,0 +1,29 @@
+h1{text-align:center;
+font-size:50px;}
+a{color:dimgray; text-decoration: none;}
+h2{color:red; font-size: 30px}
+.manchester{color:red;}
+h1{text-align:center;}
+h1{border-bottom: 2px solid black;
+margin:0px;
+padding-bottom:10px;}
+ol{border-right: 2px solid black;
+margin:0;
+padding: 20px;
+width: 100px;}
+#aaa{
+display: grid;
+grid-template-columns: 150px 1fr;}
+#aaa ol{
+padding-left:33px;}
+#aaa #bbb{
+padding-left:25px;}
+@media(max-width:800px) {
+  #aaa{
+    display:block;
+  }
+  #aaa ol{
+    border-right:none;
+  }
+  h1{border-bottom:none;}
+}
